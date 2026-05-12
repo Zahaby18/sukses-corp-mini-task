@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+}
+
+.link {
+  font-size: 15px;
+  color: #4b5563;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #1a1a1a;
+}
+
+/* zhb */

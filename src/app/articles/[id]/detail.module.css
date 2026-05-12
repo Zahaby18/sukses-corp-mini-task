@@ -1,0 +1,173 @@
+/* PDP Article, Edit Article */
+
+.main {
+  padding: 48px 0;
+  min-height: calc(100vh - 60px);
+}
+
+.breadcrumb {
+  margin-bottom: 24px;
+}
+
+.breadcrumbLink {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.breadcrumbLink:hover {
+  color: #1a1a1a;
+}
+
+.article {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 48px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.meta {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.date {
+  font-weight: 500;
+}
+
+.updated {
+  margin-left: 4px;
+  color: #9ca3af;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  font-size: 17px;
+  color: #1f2937;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  padding-top: 24px;
+  border-top: 1px solid #f3f4f6;
+}
+
+.editButton,
+.deleteButton {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.editButton {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.editButton:hover {
+  background-color: #374151;
+}
+
+.deleteButton {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.deleteButton:hover {
+  background-color: #fecaca;
+}
+
+.loading {
+  text-align: center;
+  color: #6b7280;
+  padding: 48px 0;
+}
+
+.notFound {
+  text-align: center;
+  padding: 64px 24px;
+  background-color: #ffffff;
+  border: 2px dashed #e5e7eb;
+  border-radius: 12px;
+}
+
+.notFoundTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.notFoundText {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+.backButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.backButton:hover {
+  background-color: #374151;
+}
+
+@media (max-width: 640px) {
+  .article {
+    padding: 28px 24px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+  .actions {
+    flex-direction: column;
+  }
+  .editButton,
+  .deleteButton {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* zhb */
