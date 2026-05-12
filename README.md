@@ -68,9 +68,9 @@ URL
 | URL | Deskripsi |
 |-----|-----------|
 | `/` | Company Profile (Home) |
-| `/articles` | Halaman daftar artikel |
+| `/articles` | Halaman daftar artikel - PLP(Product Listing Page) |
 | `/articles/new` | Form buat artikel baru |
-| `/articles/[id]` | Halaman detail artikel |
+| `/articles/[id]` | Halaman detail artikel - PDP(Product Detail Page) |
 | `/articles/[id]/edit` | Form edit artikel |
 
 ## Struktur Project
@@ -106,4 +106,4 @@ Kombinasi `useState` + `useEffect` + service layer dirasa sudah cukup.
 4. Refresh halaman — sample artikel akan otomatis di-seed kembali
 
 ## Live Application/Preview
-Projek ini sudah di deploy di (https://sukses-corp-mini-task.vercel.app/articles) untuk kebutuhan preview applikasi.
+Projek ini sudah di deploy di (https://sukses-corp-mini-task.vercel.app/) untuk kebutuhan preview applikasi.
