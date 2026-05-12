@@ -37,13 +37,13 @@ Project ini dibuat sebagai mini task Web Engineer Sukses Corp International.
 1. Clone repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/Zahaby18/sukses-corp-mini-task.git
    ```
 
 2. Masuk ke folder project:
 
    ```bash
-   cd simple-blog
+   cd sukses-corp-mini-task
    ```
 
 3. Install dependencies:
@@ -65,11 +65,13 @@ Project ini dibuat sebagai mini task Web Engineer Sukses Corp International.
 
 ## Routing
 URL
-/ | Company Profile (Home)
-/articles | Halaman daftar artikel
-/articles/new | Form buat artikel baru
-/articles/[id] | Halaman detail artikel
-/articles/[id]/edit | Form edit artikel
+| URL | Deskripsi |
+|-----|-----------|
+| `/` | Company Profile (Home) |
+| `/articles` | Halaman daftar artikel |
+| `/articles/new` | Form buat artikel baru |
+| `/articles/[id]` | Halaman detail artikel |
+| `/articles/[id]/edit` | Form edit artikel |
 
 ## Struktur Project
 - `src/app/` — halaman-halaman (Next.js App Router)
@@ -77,7 +79,7 @@ URL
 - `src/lib/articleService.ts` — Logic CRUD, Interaksi LocalStorage, Dummy Data
 - `src/types/article.ts` — TypeScript definitions type
 
-## Struktur
+## Keputusan Teknis
 ### Mengapa localStorage?
 1. **Zero setup** — cukup `npm install` dan `npm run dev`, tidak perlu setup database.
 2. **Konsistensi data dummy** — data default otomatis di-seed dari awal.
@@ -104,4 +106,4 @@ Kombinasi `useState` + `useEffect` + service layer dirasa sudah cukup.
 4. Refresh halaman — sample artikel akan otomatis di-seed kembali
 
 ## Live Application/Preview
-Projek ini sudah di deploy di () untuk kebutuhan preview applikasi.
+Projek ini sudah di deploy di (https://sukses-corp-mini-task.vercel.app/articles) untuk kebutuhan preview applikasi.
