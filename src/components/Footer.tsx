@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <p className={styles.text}>
-          © {year} Simple Blog · Built with Next.js & TypeScript
+          © {year} SC - Minitask - Built with Next.js & TypeScript
         </p>
       </div>
     </footer>
