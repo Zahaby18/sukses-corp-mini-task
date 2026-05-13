@@ -7,9 +7,9 @@ export default function HomePage() {
       {/* ATF */}
       <div className="container">
         <section className={styles.hero}>
-          <h1 className={styles.title}>Simple Blog Web Application</h1>
+          <h1 className={styles.title}>SC - Minitask</h1>
           <p className={styles.tagline}>
-           This is a simple blog web application built with Next.js and TypeScript.
+            We are passionate about building simple and effective web applications that empower users to share their stories and ideas. Our blogging platform is designed to provide a seamless and intuitive experience for creating, managing, and sharing content with ease.
           </p>
         </section>
 
